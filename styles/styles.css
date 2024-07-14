@@ -48,6 +48,7 @@ main img {
   float: right;
 }
 aside {
+  display: grid;
   position: relative;
   width: 20rem;
   margin: 1rem;
