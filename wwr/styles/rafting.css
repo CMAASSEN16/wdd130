@@ -242,3 +242,104 @@ footer {
 .icon img {
   width: 30px;
 }
+
+.contact-form {
+    justify-content: right;
+    width: auto
+}
+
+.contact-info {
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+    width: 33%;
+}
+
+.contact-info span {
+    text-align: center;
+}
+
+.contact-info p {
+    color: black
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px;
+}
+
+form div {
+    width: 50%;
+}
+
+.staff-container {
+    text-align:center;
+    background-color: black;
+}
+
+.staff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .employee {
+    position:relative;
+    width: 33%;
+    min-height: 300px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    text-align: center;
+  }
+
+  .employee h3{
+    position:absolute;
+    top:0;
+    color: white;
+    text-shadow: 1px 1px black;
+  }
+
+  .employee i{
+    position:absolute;
+    bottom:0;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgba(128, 128, 128, 0.503);
+  }
+
+  .jim {
+    background-image: url('../images/dude.png');
+  }
+
+  .pam {
+    background-image: url('../images/lady.png');
+  }
+
+  .dwight {
+    background-image: url('../images/bald.png');
+  }
+
+  .hear-you-message {
+    text-align: center;
+  }
+
+  .hear-you-message h1{
+    font-size: 48px;
+    text-shadow: 2px 2px black;
+  }
+
