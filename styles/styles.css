@@ -48,6 +48,7 @@ main img {
   float: right;
 }
 aside {
+  display: grid;
   position: relative;
   width: 20rem;
   margin: 1rem;
@@ -62,6 +63,7 @@ aside {
 aside img {
   width: 200px;
   height: auto;
+  margin-left: 2.6rem;
 }
 aside h2 {
   position: absolute;
@@ -88,6 +90,9 @@ header, .grid, footer {
   padding: 1rem;
   background-color: aqua;
   color: #112A46;
+}
+.box h2 {
+  text-shadow: 1px 1px #eee;
 }
 
 .grid {
