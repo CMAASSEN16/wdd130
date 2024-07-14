@@ -16,6 +16,14 @@
   --nav-hover-background-color: #000;
 }
 
+body {
+    background-color: rgb(172, 172, 172);
+}
+
+img {
+    border-radius: 25px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -34,7 +42,6 @@ header img {
   width: 125px;
   height: auto;
   position: relative;
-  border-radius: 25px;
 }
 
 nav a {
@@ -73,6 +80,7 @@ header nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 0px 0px 25px 25px;
 }
 
 .hero h1 {
@@ -136,12 +144,52 @@ section p {
   padding-right: 10%;
 }
 
+.history {
+    background-color: var(--accent2-color);
+    margin:0;
+    padding-bottom: 10px;
+    padding-left: 0;
+    border-radius: 25px;
+    text-shadow: 1px 1px black;
+}
+
+.history-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align:center;
+}
+
+.history img {
+    margin: 0;
+    width: 30%;
+}
+
+.history p {
+    text-align: justify;
+    clear: 800px;
+    margin:0;
+    padding-left:10px;
+    padding-right:10px;
+    width: 35%;
+}
+
+.adventure {
+    padding-bottom: 10px;
+    margin-bottom:15px;
+    background-color: white;
+    border-radius: 25px;
+    text-shadow: 1px 1px black;
+}
+
 .pictures-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .pictures-container img {
@@ -168,7 +216,7 @@ footer {
 
 .social-links {
   width: 25%;
-  align-items: right;
+  align-items:end
 }
 
 .footer-text p {
