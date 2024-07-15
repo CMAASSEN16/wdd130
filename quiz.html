@@ -15,14 +15,49 @@
     <main>
         <form>
             <fieldset>
+                <legend>Student Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <br>
+                <br>
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <br>
+            <fieldset>
                 <legend>Question 1</legend>
                 <label for="q1">What does HTML stand for?</label>
                 <input type="text" id="q1" name="q1">
             </fieldset>
+            <br>
             <fieldset>
                 <legend>Question 2</legend>
-                <label for="q2">What is the Purpose of the  <label>
+                <label for="q2">How do you apply CSS styling to an HTML element with the class of 'jewel'?<label>
+                    <textarea name="q2" id="q2" rows="1"></textarea>
             </fieldset>
+            <br>
+            <fieldset>
+                <legend>Question 3</legend>
+                <label for="q3">The "______" element tag contains meta-information about the document, such as the title, links to CSS, scripts, and other metadata.
+                </label>
+                <br>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Select One</option>
+                    <option value="main">Main</option>
+                    <option value="header">Header</option>
+                    <option value="footer">Footer</option>
+                    <option value="head">Head</option>
+                    <option value="body">Body</option>
+                </select>
+            </fieldset>
+            <br>    
+            <fieldset>
+                <legend>Question 4</legend>
+                <label for="margin">What is the default value of the 'margin' property in CSS?</label>
+                <input type="number" id="margin" name="margin" min="-100" step="1">
+            </fieldset>
+            <br>
+            <button type="submit">Submit Quiz</button>
         </form>
     </main>
     <footer>©2024 🦦 Collin Maassen 🦦 Arizona USA</footer>
