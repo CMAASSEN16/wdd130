@@ -18,6 +18,10 @@
 
 body {
     background-color: rgb(172, 172, 172);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 img {
@@ -37,6 +41,9 @@ header {
   );
   padding: 10px 20px;
   border: 5px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 header img {
   width: 125px;
@@ -202,12 +209,14 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* background-color: var(--nav-background-color); */
   background-image: linear-gradient(
     to left,
     var(--nav-background-color),
     var(--secondary-color)
   );
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
 }
 
 .empty-space {
@@ -341,5 +350,13 @@ form div {
   .hear-you-message h1{
     font-size: 48px;
     text-shadow: 2px 2px black;
+  }
+
+  .home {
+    background-image: url('../images/MuppetRaptorRafting.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
   }
 
