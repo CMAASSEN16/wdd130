@@ -395,6 +395,18 @@ form div {
   text-decoration: none;
 }
 
+.home-content div {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+  width: 33%;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
 .about-brief {
   font-family: var(--heading-font);
   color: var(--primary_color);
