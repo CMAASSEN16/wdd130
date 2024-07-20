@@ -17,15 +17,15 @@
 }
 
 body {
-    background-color: rgb(172, 172, 172);
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  background-color: rgb(172, 172, 172);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 img {
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 header {
@@ -152,41 +152,41 @@ section p {
 }
 
 .history {
-    background-color: var(--accent2-color);
-    margin:0;
-    padding-bottom: 10px;
-    padding-left: 0;
-    border-radius: 25px;
-    text-shadow: 1px 1px black;
+  background-color: var(--accent2-color);
+  margin: 0;
+  padding-bottom: 10px;
+  padding-left: 0;
+  border-radius: 25px;
+  text-shadow: 1px 1px black;
 }
 
 .history-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align:center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
 }
 
 .history img {
-    margin: 0;
-    width: 30%;
+  margin: 0;
+  width: 30%;
 }
 
 .history p {
-    text-align: justify;
-    clear: 800px;
-    margin:0;
-    padding-left:10px;
-    padding-right:10px;
-    width: 35%;
+  text-align: justify;
+  clear: 800px;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 35%;
 }
 
 .adventure {
-    padding-bottom: 10px;
-    margin-bottom:15px;
-    background-color: white;
-    border-radius: 25px;
-    text-shadow: 1px 1px black;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 25px;
+  text-shadow: 1px 1px black;
 }
 
 .pictures-container {
@@ -209,6 +209,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  border: 5px solid black;
   background-image: linear-gradient(
     to left,
     var(--nav-background-color),
@@ -225,7 +226,7 @@ footer {
 
 .social-links {
   width: 25%;
-  align-items:end
+  align-items: end;
 }
 
 .footer-text p {
@@ -253,110 +254,165 @@ footer {
 }
 
 .contact-form {
-    justify-content: right;
-    width: auto
+  justify-content: right;
+  width: auto;
 }
 
 .contact-info {
-    padding: 10px;
-    background-color: white;
-    border-radius: 25px;
-    width: 33%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 25px;
+  width: 33%;
 }
 
 .contact-info span {
-    text-align: center;
+  text-align: center;
 }
 
 .contact-info p {
-    color: black
+  color: black;
 }
 
 .top {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 form {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px;
 }
 
 form div {
-    width: 50%;
+  width: 50%;
 }
 
 .staff-container {
-    text-align:center;
-    background-color: black;
+  text-align: center;
+  background-color: black;
 }
 
 .staff {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-  .employee {
-    position:relative;
-    width: 33%;
-    min-height: 300px;
-    background-size: contain;
-    background-repeat:no-repeat;
-    background-position:center;
-    text-align: center;
-  }
+.employee {
+  position: relative;
+  width: 33%;
+  min-height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
 
-  .employee h3{
-    position:absolute;
-    top:0;
-    color: white;
-    text-shadow: 1px 1px black;
-  }
+.employee h3 {
+  position: absolute;
+  top: 0;
+  color: white;
+  text-shadow: 1px 1px black;
+}
 
-  .employee i{
-    position:absolute;
-    bottom:0;
-    color: white;
-    text-shadow: 1px 1px black;
-    background-color: rgba(128, 128, 128, 0.503);
-  }
+.employee i {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  text-shadow: 1px 1px black;
+  background-color: rgba(128, 128, 128, 0.503);
+}
 
-  .jim {
-    background-image: url('../images/dude.png');
-  }
+.jim {
+  background-image: url("../images/dude.png");
+}
 
-  .pam {
-    background-image: url('../images/lady.png');
-  }
+.pam {
+  background-image: url("../images/lady.png");
+}
 
-  .dwight {
-    background-image: url('../images/bald.png');
-  }
+.dwight {
+  background-image: url("../images/bald.png");
+}
 
-  .hear-you-message {
-    text-align: center;
-  }
+.hear-you-message {
+  text-align: center;
+}
 
-  .hear-you-message h1{
-    font-size: 48px;
-    text-shadow: 2px 2px black;
-  }
+.hear-you-message h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px black;
+}
 
-  .home {
-    background-image: url('../images/MuppetRaptorRafting.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 80vh;
-  }
+.home {
+  background-image: url("../images/rafting-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vh;
+  margin-top: -3%;
+  line-height: 25vh;
+  text-align: center;
+}
 
+.home h1 {
+  text-shadow: 3px 3px white;
+  font-size: 72px;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+  background-image: linear-gradient(
+    to left,
+    var(--nav-background-color),
+    var(--secondary-color),
+    var(--nav-background-color)
+  );
+}
+
+.home-content div {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+  width: 49%;
+}
+
+.about-brief {
+  background-image: url("../images/MuppetRaptorRafting.png");
+}
+
+.newsletter-signup {
+  background-image: url("../images/MuppetRaptorRafting2.png");
+}
+
+.newsletter-signup h1 {
+  position: absolute;
+  top: 5%
+}
+
+.newsletter-signup form {
+  position: absolute;
+  bottom: 5%;
+  left: 65%;
+  width: 500px
+}
+
+/* .newsletter-signup label {
+  font-family: var(--heading-font);
+  color: var(--primary_color);
+  size: 70px
+} */
