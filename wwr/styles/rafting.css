@@ -420,7 +420,7 @@ form div {
 
 .about-brief li {
   font-size: 36px;
-  margin-top: 15%;
+  margin-top: 8%;
   text-shadow: 2px 2px black;
 }
 
@@ -471,4 +471,48 @@ form div {
   text-shadow: 1px 1px black;
   border-radius: 10px;
   margin: 5px;
+}
+
+.trip-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.25%;
+  background-image: linear-gradient(
+    to left,
+    var(--nav-background-color),
+    var(--secondary-color),
+    var(--nav-background-color)
+  );
+  text-shadow: 2px 1px black;
+}
+
+.trip-box {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: .25%;
+  background-color: white;
+}
+
+.trip-content-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.trip-content h2{
+  font-size: 300%;
+  margin: 1%;
+}
+
+.trip-content-info img{
+  margin: 1%;
+  width: 30vw;
+  object-fit: cover;
+}
+
+.trip-content-info p{
+  font-size: 150%;
+  margin: 1%;
+  width: 65vw;
 }
