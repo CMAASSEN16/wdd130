@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Peaks River</title>
-    <meta name="author" content="Collin Maassen">
-    <meta name="description" content="About us webpage">
-    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="author" content="Collin Maassen" />
+    <meta name="description" content="About us webpage" />
+    <link rel="stylesheet" href="styles/rafting.css" />
   </head>
   <body>
     <header>
-      <img src="images/logo.png" alt="Peaks River Rafting Logo">
+      <img src="images/logo.png" alt="Peaks River Rafting Logo" />
       <nav>
         <a href="#">Home</a>
         <a href="about.html">About Us</a>
@@ -19,20 +19,47 @@
       </nav>
     </header>
     <main>
-     <div class="home">
+      <div class="home">
         <h1>Get Wet and Wild With Us!</h1>
-     </div>
-     <div class="home-content">
-        <div class="about-brief"></div>
-        <div class="newsletter-signup">
-            <h1>Subscribe to Our Newsletter!</h1>
+      </div>
+      <div class="home-content">
+        <a href="about.html" class="about-brief first">
+            <span class="title">
+              <h1>Adventure Awaits</h1>
+            </span>
+            <ul>
+              <li>Conquer your fears</li>
+              <li>Stop being bored</li>
+              <li>Get wet</li>
+            </ul>
+        </a>
+        <a href="trips.html" class="about-brief second">
+            <span class="title">
+              <h1>Experience of a Lifetime</h1>
+            </span>
+            <ul>
+              <li>Create great memories</li>
+              <li>Make new friends</li>
+              <li>Become a cool person</li>
+            </ul>
+        </a>
+        <a href="contact.html" class="newsletter-signup">
+          <h1>Subscribe to Our Newsletter!</h1>
+          <span class="subscribe">
+            <h2 class="label">Email:</h2>
             <form>
-            <label for="email"><h1>Email:</h1></label><br />
-              <input type="text" id="email" name="email" required /><br /><br />
-              <input type="submit" value="Subscribe" />
+              <input
+                class="input-box"
+                type="text"
+                id="email"
+                name="email"
+                required
+              /><br /><br />
+              <input class="submit-btn" type="submit" value="Subscribe" />
             </form>
-        </div>
-     </div>
+          </span>
+        </a>
+      </div>
     </main>
     <footer>
       <div class="empty-space"></div>
@@ -42,13 +69,13 @@
       <div class="social-links">
         <nav>
           <a href="https://www.instagram.com/" class="icon">
-            <img src="images/instagram.svg" alt="Instagram">
+            <img src="images/instagram.svg" alt="Instagram" />
           </a>
           <a href="https://www.facebook.com/" class="icon">
-            <img src="images/facebook.svg" alt="Facebook">
+            <img src="images/facebook.svg" alt="Facebook" />
           </a>
           <a href="https://x.com/?lang=en" class="icon">
-            <img src="images/twitter.svg" alt="Twitter">
+            <img src="images/twitter.svg" alt="Twitter" />
           </a>
         </nav>
       </div>

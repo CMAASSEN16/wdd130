@@ -362,10 +362,11 @@ form div {
   margin-top: -3%;
   line-height: 25vh;
   text-align: center;
+  border: 2px solid black;
 }
 
 .home h1 {
-  text-shadow: 3px 3px white;
+  text-shadow: 3px 3px black;
   font-size: 72px;
 }
 
@@ -373,7 +374,7 @@ form div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1%;
+  padding: 0.25%;
   background-image: linear-gradient(
     to left,
     var(--nav-background-color),
@@ -382,37 +383,80 @@ form div {
   );
 }
 
-.home-content div {
+.home-content a {
   position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 75vh;
-  width: 49%;
+  width: 33%;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-decoration: none;
 }
 
 .about-brief {
+  font-family: var(--heading-font);
+  color: var(--primary_color);
+  font-size: 24px;
+}
+
+.about-brief .title {
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
+
+.about-brief li {
+  font-size: 36px;
+  margin-top: 15%;
+  text-shadow: 2px 2px black;
+}
+
+.first {
   background-image: url("../images/MuppetRaptorRafting.png");
+}
+
+.second {
+  background-image: url("../images/MuppetRaptorRafting3.png");
 }
 
 .newsletter-signup {
   background-image: url("../images/MuppetRaptorRafting2.png");
+  text-align: center;
+}
+
+.newsletter-signup .subscribe {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  bottom: 5%;
+  right: 5%;
 }
 
 .newsletter-signup h1 {
-  position: absolute;
-  top: 5%
-}
-
-.newsletter-signup form {
-  position: absolute;
-  bottom: 5%;
-  left: 65%;
-  width: 500px
-}
-
-/* .newsletter-signup label {
   font-family: var(--heading-font);
   color: var(--primary_color);
-  size: 70px
-} */
+  font-size: 55px;
+  text-shadow: 3px 3px black;
+}
+
+.newsletter-signup h2 {
+  font-family: var(--heading-font);
+  color: var(--primary_color);
+  font-size: 36px;
+  text-shadow: 3px 3px black;
+  margin: 0;
+}
+
+.input-box {
+  background-color: #79aedc89;
+}
+
+.submit-btn {
+  background-color: var(--primary_color);
+  color: white;
+  font-size:large;
+  text-shadow: 1px 1px black;
+  border-radius: 10px;
+  margin: 5px;
+}
