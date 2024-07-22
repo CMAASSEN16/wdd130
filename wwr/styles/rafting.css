@@ -528,12 +528,15 @@ form div {
 }
 
 .trips-info {
-  width: 640px;
+  position: relative;
+  width: 97.8%;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
 }
+
 table{
+  position: sticky;
   background-image: linear-gradient(
     to left,
     var(--nav-background-color),
@@ -541,15 +544,21 @@ table{
     var(--nav-background-color)
   ) ;
   border-collapse: collapse;
+  width: 350px;
+  font: var(--paragraph-font);
 }
 
 thead {
-  background-image: linear-gradient(
-    to left,
-    var(--nav-background-color),
-    var(--secondary-color),
-    var(--nav-background-color)
-  ) ;
+  border: 3px solid black;
+}
+
+.trip-details {
+  border: 1px solid black;
+}
+
+.contact-box {
+  border: 1px solid black;
+  float: right;
 }
 
 .bundle {
@@ -559,5 +568,5 @@ thead {
     var(--secondary-color),
     var(--nav-background-color)
   ) ;
-
+  border: 2px solid black;
 }
