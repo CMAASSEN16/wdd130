@@ -536,7 +536,6 @@ form div {
 }
 
 table{
-  position: sticky;
   background-image: linear-gradient(
     to left,
     var(--nav-background-color),
@@ -557,8 +556,24 @@ thead {
 }
 
 .contact-box {
-  border: 1px solid black;
-  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact-box p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 350px;
 }
 
 .bundle {
