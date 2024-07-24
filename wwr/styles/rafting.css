@@ -547,7 +547,7 @@ table{
   font: var(--paragraph-font);
 }
 
-thead {
+th {
   border: 3px solid black;
 }
 
